@@ -1,9 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+
+    font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    min-width: 100%;
     background-color: cadetblue;
 }
 
@@ -15,18 +22,20 @@ nav {
 
 #navigation > div {
     margin: 0px 20px;
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 
 #navigation > div:hover {
     color: aliceblue;
+    cursor: pointer;
 }
 
 body {
     background-color: #414141;
 }
 
-.main {
+main {
+    padding-top: 100px;
     max-width: 1000px;
     margin: auto;
     background-color: #7cbdd1;
