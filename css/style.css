@@ -5,6 +5,7 @@ body {
 .main {
     max-width: 300px;
     margin: auto;
+    background-color: #7cbdd1;
 }
 
 .main > div {
