@@ -12,3 +12,7 @@ body {
     text-align: center;
     font-size: xx-large;
 }
+
+#form > input:invalid {
+    background-color: #ff0000;
+}
